@@ -1,5 +1,6 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp, useSSRContext } from 'vue'
+import DefaultLayout from './layouts/DefaultLayout.vue'
 import './assets/index.css'
+import router from '../src/router'
 
-createApp(App).mount('#app')
+createApp(DefaultLayout).use(router).mount('#app')
