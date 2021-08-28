@@ -5,21 +5,21 @@ const state = () => ({
 
 // getters
 const getters = {
-  getUser (state) {
+  getUser: state => {
     return state.user
   }
 }
 
 // actions
 const actions = {
-  getUserData ({ commit }) {
+  setUserData({ commit }, user) {
     commit('setUser', user)
   }
 }
 
 // mutations
 const mutations = {
-  setUser (state, user) {
+  setUser(state, user) {
     state.user = user
   }
 }

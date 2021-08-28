@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "vue": "^3.0.5",
-    "vue-router": "^4.0.8"
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@tailwindcss/jit": "^0.1.17",
